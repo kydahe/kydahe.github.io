@@ -1,7 +1,17 @@
 <html>
  <head>
+  <script>
+   window.onload = function(){
+    var d = new Date(document.lastModified); 
+    document.getElementById("lmodified").innerHTML = "Updated: " + d.toDateString();
+   } 
+  </script>
+ </head>
+ <body>
   <title>Paper Reading</title>
   <h1>Paper Reading Notes</h1>
+  <hr>
+  <br>
   <ul>
     <li><a href="https://cat-asterisk-0cd.notion.site/All-You-Ever-Wanted-to-Know-About-Dynamic-Taint-Analysis-and-Forward-Symbolic-Execution-but-might-h-6045aff74c04468f9c57cd0d3dd8e071"><b>All You Ever Wanted to Know About Dynamic Taint Analysis and Forward Symbolic Execution (but might have been afraid to ask)</b></a><br>
       Conference: Oakland 2010<br>
